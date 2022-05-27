@@ -32,7 +32,7 @@ program define splittvc
 		sort patient start 
 		gen `fid' = _n
 		* Initial stset to estimate follow-up time 
-		qui stset end, failure(`f'==1) origin(`start') id(`fid')
+		qui stset `end', failure(`f'==1) origin(`start') id(`fid')
 		tempvar fup 
 		qui gen `fup' = (_t-_t0)	
 		qui total `fup'
