@@ -20,7 +20,7 @@
 		global data "C:/Data"
 		
 	* Ado
-		sysdir set PERSONAL "C:/Users/haas/Dropbox/Do/IeDEA/OST/$vDO/90_ADO"
+		sysdir set PERSONAL "C:/Repositories/OUD/code/Stata/v7/90_ADO"
 		
 * Generate project folders 
 		
